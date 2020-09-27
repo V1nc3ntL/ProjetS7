@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-09-07" view-index="0" gantt-divider-location="471" resource-divider-location="300" version="2.8.11" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="265" order="0"/>
+        <field id="tpd4" name="Date de début" width="70" order="1"/>
+        <field id="tpd5" name="Date de fin" width="117" order="2"/>
+        <option id="color.recent"><![CDATA[#000000 #999999 #ffff00 #000099 #ffffff #009900 #990033 #cc0000 #990000 #ff0000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="92" name="Sprint 1" color="#000000" meeting="false" start="2020-09-21" duration="11" complete="7" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true">
+            <task id="309" name="Recherche bibliographique" color="#8cb6ce" meeting="false" start="2020-09-21" duration="3" complete="36" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true">
+                <task id="310" name="Problématiques métier" color="#000099" meeting="false" start="2020-09-21" duration="3" complete="100" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
+                    <task id="311" name="Prédateurs des ruches" color="#cc0000" meeting="false" start="2020-09-21" duration="1" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true">
+                        <task id="312" name="Parasites" color="#009900" meeting="false" start="2020-09-21" duration="1" complete="100" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true"/>
+                        <task id="313" name="Pollution" color="#009900" meeting="false" start="2020-09-21" duration="1" complete="100" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
+                        <task id="314" name="Frelon" color="#009900" meeting="false" start="2020-09-21" duration="1" complete="100" thirdDate="2020-10-27" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="315" name="Fonctionnement de la ruche" color="#cc0000" meeting="false" start="2020-09-22" duration="2" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true">
+                        <task id="316" name="Cycle de vie de la reine" color="#009900" meeting="false" start="2020-09-22" duration="1" complete="100" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
+                        <task id="317" name="Essaimage" color="#009900" meeting="false" start="2020-09-23" duration="1" complete="100" thirdDate="2020-10-27" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="318" name="Techniques apicoles" color="#cc0000" meeting="false" start="2020-09-22" duration="1" complete="100" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true">
+                        <task id="319" name="Enfumage" color="#009900" meeting="false" start="2020-09-22" duration="1" complete="100" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="320" name="Analogique" color="#000099" meeting="false" start="2020-09-21" duration="3" complete="10" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
+                    <task id="321" name="Capteurs" color="#cc0000" meeting="false" start="2020-09-21" duration="3" complete="20" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true">
+                        <task id="322" name="Température" color="#009900" meeting="false" start="2020-09-21" duration="1" complete="100" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true"/>
+                        <task id="323" name="Poids" color="#009900" meeting="false" start="2020-09-22" duration="1" complete="0" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true"/>
+                        <task id="324" name="Son" color="#009900" meeting="false" start="2020-09-22" duration="1" complete="0" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true"/>
+                        <task id="325" name="Humidité" color="#009900" meeting="false" start="2020-09-23" duration="1" complete="0" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true"/>
+                        <task id="326" name="Luminosité" color="#009900" meeting="false" start="2020-09-23" duration="1" complete="0" thirdDate="2020-09-15" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="327" name="Alimentation" color="#cc0000" meeting="false" start="2020-09-21" duration="3" complete="0" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true">
+                        <task id="328" name="Production" color="#009900" meeting="false" start="2020-09-21" duration="2" complete="0" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true"/>
+                        <task id="329" name="Stockage" color="#009900" meeting="false" start="2020-09-22" duration="2" complete="0" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="330" name="Numérique" color="#000099" meeting="false" start="2020-09-21" duration="3" complete="0" thirdDate="2020-09-15" thirdDate-constraint="0" expand="true">
+                    <task id="331" name="Traitement des données" color="#990033" meeting="false" start="2020-09-21" duration="2" complete="0" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true">
+                        <task id="332" name="LpWAN Sigfox" color="#009900" meeting="false" start="2020-09-21" duration="2" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
+                        <task id="333" name="IHM Ubidots" color="#009900" meeting="false" start="2020-09-22" duration="1" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="334" name="Microcontrôleur" color="#990033" meeting="false" start="2020-09-21" duration="3" complete="0" thirdDate="2020-09-22" thirdDate-constraint="0" expand="true">
+                        <task id="335" name="Environnement" color="#009900" meeting="false" start="2020-09-21" duration="2" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
+                        <task id="336" name="Datasheet" color="#009900" meeting="false" start="2020-09-22" duration="2" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="337" name="Livrables" color="#999999" meeting="false" start="2020-09-21" duration="10" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true">
+                <task id="338" name="Cadrage du besoin client" color="#8cb6ce" meeting="false" start="2020-09-21" duration="1" complete="0" thirdDate="2020-09-18" thirdDate-constraint="0" expand="true"/>
+                <task id="339" name="Gantt" color="#8cb6ce" meeting="false" start="2020-09-22" duration="3" complete="0" thirdDate="2020-09-18" thirdDate-constraint="0" expand="true"/>
+                <task id="340" name="Schéma de solution" color="#8cb6ce" meeting="false" start="2020-09-29" duration="2" complete="0" thirdDate="2020-09-18" thirdDate-constraint="0" expand="true"/>
+                <task id="341" name="Liste du matériel" color="#8cb6ce" meeting="false" start="2020-09-25" duration="2" complete="0" thirdDate="2020-09-18" thirdDate-constraint="0" expand="true"/>
+                <task id="342" name="Diapo" color="#8cb6ce" meeting="false" start="2020-10-01" duration="2" complete="0" thirdDate="2020-09-08" thirdDate-constraint="0" expand="true"/>
+                <task id="343" name="Rédaction cahier des charges" meeting="false" start="2020-09-21" duration="10" complete="0" expand="false">
+                    <task id="344" name="Etudes Modèles" color="#8cb6ce" meeting="false" start="2020-09-21" duration="2" complete="0" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="345" name="Création Plan" color="#8cb6ce" meeting="false" start="2020-09-22" duration="3" complete="0" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="346" name="Recueil des besoin" color="#8cb6ce" meeting="false" start="2020-09-25" duration="1" complete="0" thirdDate="2020-09-28" thirdDate-constraint="0" expand="true"/>
+                    <task id="347" name="Rédaction" color="#8cb6ce" meeting="false" start="2020-09-28" duration="5" complete="0" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true">
+                        <task id="348" name="V1" color="#8cb6ce" meeting="false" start="2020-09-28" duration="2" complete="0" thirdDate="2020-09-07" thirdDate-constraint="0" expand="true"/>
+                        <task id="349" name="Update" color="#8cb6ce" meeting="false" start="2020-09-30" duration="3" complete="0" thirdDate="2020-09-14" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="353" name="Revue" color="#ffff00" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2020-10-05" duration="1" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="94" name="Sprint 2" color="#000000" meeting="false" start="2020-10-06" duration="10" complete="0" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
+            <task id="378" name="Analogique" color="#000099" meeting="false" start="2020-10-06" duration="9" complete="0" thirdDate="2020-10-06" thirdDate-constraint="0" expand="true">
+                <task id="380" name="Prototype Fritzing" color="#8cb6ce" meeting="false" start="2020-10-06" duration="3" complete="0" thirdDate="2020-09-18" thirdDate-constraint="0" expand="true"/>
+                <task id="400" name="Labdec" meeting="false" start="2020-10-12" duration="2" complete="0" expand="true"/>
+                <task id="382" name="Mesure consommation" color="#8cb6ce" meeting="false" start="2020-10-13" duration="1" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+                <task id="389" name="Optimisation Consommation" color="#8cb6ce" meeting="false" start="2020-10-15" duration="2" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="384" name="Numérique" color="#000099" meeting="false" start="2020-10-06" duration="8" complete="0" thirdDate="2020-10-06" thirdDate-constraint="0" expand="false">
+                <task id="385" name="Sigfox" color="#8cb6ce" meeting="false" start="2020-10-06" duration="3" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+                <task id="386" name="IHM" color="#8cb6ce" meeting="false" start="2020-10-08" duration="3" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+                <task id="387" name="Optimisation Consommation" color="#8cb6ce" meeting="false" start="2020-10-13" duration="3" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="394" name="Livrables" color="#999999" meeting="false" start="2020-10-06" duration="9" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true">
+                <task id="401" name="Gantt" color="#8cb6ce" meeting="false" start="2020-10-06" duration="2" complete="0" thirdDate="2020-10-06" thirdDate-constraint="0" expand="true"/>
+                <task id="402" name="Schémas" color="#8cb6ce" meeting="false" start="2020-10-09" duration="1" complete="0" thirdDate="2020-10-06" thirdDate-constraint="0" expand="true"/>
+                <task id="398" name="Diapo" color="#8cb6ce" meeting="false" start="2020-10-15" duration="2" complete="0" thirdDate="2020-10-07" thirdDate-constraint="0" expand="true"/>
+                <task id="405" name="Démo" color="#8cb6ce" meeting="false" start="2020-10-15" duration="2" complete="0" thirdDate="2020-10-07" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="496" name="Revue" color="#ffff00" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2020-10-19" duration="1" complete="0" thirdDate="2020-09-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="101" name="Sprint 3" color="#000000" meeting="false" start="2020-10-20" duration="20" complete="0" thirdDate="2020-09-07" thirdDate-constraint="0" expand="false">
+            <task id="480" name="Analogique" color="#000099" meeting="false" start="2020-10-20" duration="9" complete="0" thirdDate="2020-10-20" thirdDate-constraint="0" expand="false">
+                <task id="481" name="PCB" color="#8cb6ce" meeting="false" start="2020-10-20" duration="7" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+                <task id="482" name="Mesure consommation" color="#8cb6ce" meeting="false" start="2020-10-29" duration="2" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="428" name="Numérique" color="#000099" meeting="false" start="2020-10-20" duration="9" complete="0" thirdDate="2020-10-06" thirdDate-constraint="0" expand="false">
+                <task id="430" name="Cloud" color="#8cb6ce" meeting="false" start="2020-10-20" duration="4" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+                <task id="432" name="IHM" color="#8cb6ce" meeting="false" start="2020-10-23" duration="2" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+                <task id="434" name="Optimisation Consommation" color="#8cb6ce" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="449" name="Livrables" color="#999999" meeting="false" start="2020-10-20" duration="14" complete="0" thirdDate="2020-10-05" thirdDate-constraint="0" expand="false">
+                <task id="451" name="Gantt" color="#8cb6ce" meeting="false" start="2020-10-20" duration="1" complete="0" thirdDate="2020-10-06" thirdDate-constraint="0" expand="true"/>
+                <task id="453" name="Schémas" color="#8cb6ce" meeting="false" start="2020-10-21" duration="1" complete="0" thirdDate="2020-10-06" thirdDate-constraint="0" expand="true"/>
+                <task id="455" name="Diapo" color="#8cb6ce" meeting="false" start="2020-11-02" duration="2" complete="0" thirdDate="2020-10-07" thirdDate-constraint="0" expand="true"/>
+                <task id="457" name="Démo" color="#8cb6ce" meeting="false" start="2020-11-04" duration="3" complete="0" thirdDate="2020-10-07" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="495" name="Revue" color="#ffff00" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2020-11-16" duration="1" complete="0" thirdDate="2020-11-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="440" name="Vacances Toussaint" color="#ffffff" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2020-11-09" duration="5" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
+        <task id="130" name="Sprint 4" color="#000000" meeting="false" start="2020-11-17" duration="15" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="false">
+            <task id="501" name="Revue 4" color="#ffff00" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2020-12-07" duration="1" complete="0" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true"/>
+            <task id="529" name="Prototypes" color="#000099" meeting="false" start="2020-11-17" duration="7" complete="0" thirdDate="2020-11-17" thirdDate-constraint="0" expand="false">
+                <task id="534" name="Plan prototype" color="#8cb6ce" meeting="false" start="2020-11-17" duration="3" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true"/>
+                <task id="535" name="Réalisation Prototype" color="#8cb6ce" meeting="false" start="2020-11-20" duration="4" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="530" name="Tests" color="#000099" meeting="false" start="2020-11-17" duration="10" complete="0" thirdDate="2020-11-17" thirdDate-constraint="0" expand="false">
+                <task id="531" name="Tests terrain" color="#8cb6ce" meeting="false" start="2020-11-26" duration="3" complete="0" thirdDate="2020-11-11" thirdDate-constraint="0" expand="true"/>
+                <task id="532" name="Elaboration des test" color="#8cb6ce" meeting="false" start="2020-11-17" duration="7" complete="0" thirdDate="2020-11-13" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="544" name="Livrables" color="#999999" meeting="false" start="2020-11-17" duration="14" complete="0" thirdDate="2020-11-17" thirdDate-constraint="0" expand="false">
+                <task id="546" name="Diapo" color="#8cb6ce" meeting="false" start="2020-12-01" duration="4" complete="0" thirdDate="2020-11-09" thirdDate-constraint="0" expand="true"/>
+                <task id="548" name="Gantt" color="#8cb6ce" meeting="false" start="2020-11-17" duration="2" complete="0" thirdDate="2020-11-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="172" name="Sprint 5" color="#000000" meeting="false" start="2020-12-08" duration="30" complete="0" thirdDate="2020-12-01" thirdDate-constraint="0" expand="false">
+            <task id="10" name="Revue Finale" color="#ffff00" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2021-01-18" duration="1" complete="0" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true"/>
+            <task id="567" name="Livrables" color="#999999" meeting="false" start="2020-12-08" duration="29" complete="0" thirdDate="2020-12-08" thirdDate-constraint="0" expand="false">
+                <task id="568" name="Documents de tests" color="#8cb6ce" meeting="false" start="2020-12-08" duration="4" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
+                <task id="592" name="Guide utilisateur" color="#8cb6ce" meeting="false" start="2020-12-14" duration="5" complete="0" thirdDate="2021-01-07" thirdDate-constraint="0" expand="true"/>
+                <task id="569" name="Retex" color="#8cb6ce" meeting="false" start="2021-01-04" duration="2" complete="0" thirdDate="2020-11-09" thirdDate-constraint="0" expand="true"/>
+                <task id="593" name="Diapo" color="#8cb6ce" meeting="false" start="2021-01-11" duration="5" complete="0" thirdDate="2020-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="571" name="Démo" color="#8cb6ce" meeting="false" start="2021-01-06" duration="3" complete="0" thirdDate="2020-11-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="17" name="Demo day" color="#ffff00" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2021-01-19" duration="1" complete="0" thirdDate="2020-09-21" thirdDate-constraint="0" expand="true"/>
+        <task id="136" name="Vacances Noël" color="#ffffff" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2020-12-21" duration="10" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Paul-Edouard" function="1" contacts="" phone=""/>
+        <resource id="1" name="Lola" function="3" contacts="" phone=""/>
+        <resource id="2" name="Daran" function="2" contacts="" phone=""/>
+        <resource id="3" name="Vincent" function="Default:1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="317" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="322" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="312" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="313" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="319" resource-id="2" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="316" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2020-11-09" end="2020-11-16" resourceid="3"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Responsable communication"/>
+        <role id="2" name="Responsable client"/>
+        <role id="3" name="Développeur"/>
+    </roles>
+</project>
